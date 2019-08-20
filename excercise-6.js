@@ -1,5 +1,5 @@
 function meleeRangedGrouping (str) {
-    if (!str) {
+    if (str.length === 0) {
         return [];
     }
     var output = [[],[]];
