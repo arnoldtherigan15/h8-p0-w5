@@ -1,5 +1,8 @@
 function makanTerusRekursif(waktu) {
-    // you can only write your code here!
+    if (waktu <= 0) {
+        return 0;
+    } 
+    return 1 + makanTerusRekursif(waktu-15);
 }
 
 // TEST CASES
