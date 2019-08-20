@@ -1,5 +1,9 @@
 function totalDigitRekursif(angka) {
-    // you can only write your code here!
+    var numberTostring = String(angka);
+    if (numberTostring.length === 0) {
+        return 0;
+    }
+    return Number(numberTostring[0]) + totalDigitRekursif(numberTostring.slice(1));
 }
 
 // TEST CASES
