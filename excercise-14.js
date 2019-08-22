@@ -46,9 +46,9 @@ function passwordGenerator (name) {
       return 'Minimal karakter yang diinputkan adalah 5 karakter';
   }
   var name = changeVocals(name);
-  var name = reverseWord(name);
-  var name = setLowerUpperCase(name);
-  var name = removeSpaces(name);
+  name = reverseWord(name);
+  name = setLowerUpperCase(name);
+  name = removeSpaces(name);
   return name.join('');
 }
 
